@@ -1,0 +1,5 @@
+// Paynow
+const PAYNOW_API_KEY = "YOUR_PAYNOW_API_KEY";
+
+// PayPal
+const PAYPAL_CLIENT_ID = "YOUR_PAYPAL_CLIENT_ID";
