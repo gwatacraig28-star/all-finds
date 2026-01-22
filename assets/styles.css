@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchInput {
+    width: 90%;
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#listingsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.listing-card {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.listing-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#postModal {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 1000;
+}
+
+.hidden { display: none; }
+
+button {
+    padding: 0.5rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
